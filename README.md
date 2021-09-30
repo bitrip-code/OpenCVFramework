@@ -40,3 +40,8 @@ $ open -R opencv2.zip
 1. Drag and drop the zip file (created above) into your web browser under the _Attach binaries by dropping them here or selecting them_ area on the page.
 1. Click _Publish release_.
 
+## To update the podspec
+
+Update the local podspec and copy it to the right subdirectory of
+https://github.com/bitrip-code/iOS-BitRip-Podspecs/tree/main/OpenCVFramework
+
