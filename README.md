@@ -2,8 +2,14 @@
 
 ## To build the library:
 
+If you don't have CMake installed, install it from https://cmake.org
+open the terminal to build from the command line
+clone git@github.com:bitrip-code/opencv.git, branch swift-package
+
 ```
-$ git clone https://github.com/opencv/opencv.git
+# add CMake to the path if needed:
+$ PATH=$PATH:/Applications/CMake.app/Contents/bin
+
 $ cd opencv
 $ git checkout VERSION_TAG_TO_BUILD
 $ python platforms/ios/build_framework.py ios --build_only_specified_archs --iphoneos_archs arm64 --iphonesimulator_archs x86_64 --dynamic
