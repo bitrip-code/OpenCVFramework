@@ -3,7 +3,9 @@
 ## To build the library:
 
 If you don't have CMake installed, install it from https://cmake.org
+
 open the terminal to build from the command line
+
 clone git@github.com:bitrip-code/opencv.git, branch swift-package
 
 ```
