@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "OpenCVFramework"
-  spec.version      = "4.5.2"
+  spec.version      = "4.5.3"
   spec.summary      = "OpenCV: Open Source Computer Visition Library"
   spec.description  = <<-DESC
   This is a binary build of the opencv2.framework for CocoaPods integration.
